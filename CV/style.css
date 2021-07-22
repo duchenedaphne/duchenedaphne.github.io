@@ -1,0 +1,134 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+					url(seine.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: arial;
+}
+header{
+	text-shadow: 8px 8px 9px black;
+	width: 50%;
+	margin: auto;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+header figure img{
+	width: 95px;
+	height: 95px;
+}
+#liseret, #contenu{
+    display: inline-block;
+    vertical-align: top;
+}
+#liseret{   
+    width: 5%;
+    margin-right: 3%;
+    height: 500px;
+    background-color: teal;
+    border: 1px solid #181818;
+    box-shadow: 8px 8px 9px black;
+    border-radius: 10px;
+}
+#contenu{
+    width: 90%;
+	margin: 0 auto;
+}
+.cv{
+	background-color: lightgray;
+	color: black;
+	margin: 0 auto;
+	box-shadow: 8px 8px 9px black;
+	border: 1px solid teal;
+	border-radius: 20px;
+}
+section{
+	vertical-align: top;
+	border-left: 1px solid teal;
+	padding-bottom: 10px;
+
+}
+h2{
+	background-color: teal;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	/*padding: 2px;*/
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+#diplomes{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+span{
+	font-weight: bold;
+}
+ul{
+	padding-right: 30px;
+}
+ul a{
+	color: black;
+	text-shadow: none;
+}
+ul a:hover{
+	font-size: 1.1em;
+	color: black;
+}
+button{
+	background-color: lightgray;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+	padding: 2px;
+	border-color: #1c3279;
+	border-radius: 5px;
+	box-shadow: 8px 8px 9px black;
+	margin: 0 auto;
+	text-align: center;
+}
+button:hover{
+	padding: 4px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+footer{
+	width: 70%;
+	margin: auto;
+	font-size: 0.8em;
+	text-shadow: 3px 3px 2px black;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: right;
+}
+footer p 
+{
+	font-weight: bold;
+}
+@media all and (max-width: 768px){
+    section{
+        display: block;
+        width: auto;
+    }
+    #liseret{
+        display: none;
+    }
+    #contenu{
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+	.cv {
+		display: flex;
+		flex-direction: row;
+	}
+	#diplomes{
+		border-top-right-radius: 0;
+	}
+	#experiences{
+		border-top-right-radius: 20px;
+	}
+}
