@@ -28,10 +28,13 @@ header{
     border-bottom: #64a1fd double 3px;
     padding: 6px 0;
 }
-#portfolio button{
-    background-color: #64a1fd;
+#portfolio a{
+    display: block;
+    background-color: #e2f1f3;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
     border-radius: 5px;
+    padding: 2px 2px 0 2px;
+    margin: 2px 0;
 }
 main{
     width: 98%;

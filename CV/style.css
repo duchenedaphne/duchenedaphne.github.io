@@ -1,13 +1,12 @@
 body{
-	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-					url(seine.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(seine.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	font-family: arial;
 }
 header{
-	text-shadow: 8px 8px 9px black;
+	text-shadow: 0.5em 0.5em 0.6em black;
 	width: 50%;
 	margin: auto;
 	color: white;
@@ -16,8 +15,8 @@ header{
 	justify-content: space-around;
 }
 header figure img{
-	width: 95px;
-	height: 95px;
+	width: 5.9em;
+	height: 5.9em;
 }
 #liseret, #contenu{
     display: inline-block;
@@ -26,7 +25,7 @@ header figure img{
 #liseret{   
     width: 5%;
     margin-right: 3%;
-    height: 500px;
+    height: 31.25em;
     background-color: teal;
     border: 1px solid #181818;
     box-shadow: 8px 8px 9px black;
@@ -48,16 +47,14 @@ section{
 	vertical-align: top;
 	border-left: 1px solid teal;
 	padding-bottom: 10px;
-
 }
 h2{
 	background-color: teal;
 	color: white;
 	text-shadow: 1px 1px 1px black;
-	/*padding: 2px;*/
 	margin: 0;
-	width: 100%;
 	text-align: center;
+	font-size: 1.3rem;
 }
 #diplomes{
 	border-top-left-radius: 20px;
@@ -67,7 +64,7 @@ span{
 	font-weight: bold;
 }
 ul{
-	padding-right: 30px;
+	padding-right: 1.8em;
 }
 ul a{
 	color: black;
@@ -77,19 +74,9 @@ ul a:hover{
 	font-size: 1.1em;
 	color: black;
 }
-button{
-	background-color: lightgray;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
-	padding: 2px;
-	border-color: #1c3279;
-	border-radius: 5px;
-	box-shadow: 8px 8px 9px black;
-	margin: 0 auto;
-	text-align: center;
-}
-button:hover{
-	padding: 4px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+#portfolio{
+	color: #1c3279;
+	font-weight: 700;
 }
 footer{
 	width: 70%;
@@ -105,7 +92,7 @@ footer p
 {
 	font-weight: bold;
 }
-@media all and (max-width: 768px){
+@media only screen and (max-width: 817px){
     section{
         display: block;
         width: auto;
@@ -120,7 +107,7 @@ footer p
 		justify-content: center;
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 818px) {
 	.cv {
 		display: flex;
 		flex-direction: row;
