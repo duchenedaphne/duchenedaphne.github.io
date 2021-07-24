@@ -1,0 +1,415 @@
+/*
+  saumon : #f38181
+  or : #fce38a
+  vert pale : #eaffd0
+bleu-vert : #95e1d3
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    background-color: #fff;
+}
+#portfolio{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(226, 221, 191);
+}
+#portbutton{
+  background-color: #1c3279;
+  box-shadow: 8px 8px 9px black;
+  margin: 0 40px 10px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+#portbutton h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 3px;
+}
+#portbutton a{
+    display: block;
+    background-color: gainsboro;
+    block-size: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 4px;
+}
+#portbutton a:hover{
+    background-color: rgb(152, 194, 196);
+    block-size: 35px;
+}
+main{
+    width: 100vw;
+}
+#banner{
+    background-image: linear-gradient(rgba(251, 227, 137, 0.8), rgba(243, 138, 129, 1)), url("../images/vautour.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.container{
+    margin: 0 auto;
+    align-items: center;
+    padding: 1.25em 4em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+#menu ul li{
+    margin: 0 0.6em;
+}
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+#menu ul li a:hover{
+    color: #fce38a;
+    text-decoration: underline;
+    height: 0.2em;
+    background-color: #fce38a;
+}
+#banner #menu ul li a img #caddie{
+    height: 0.9rem;
+    background-color: #ffffff;
+}
+#menu ul li a img #loupe{
+    height: 1.1em;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+#banner #title{
+    padding-top: 9.3em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#banner h1{
+    font-family: "Kaushan Script";
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+}
+#banner h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 7rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding-top: 40px;
+}
+#banner #rectangle2{
+    margin-top: 75px;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+}
+#banner #learn{
+    margin-top: 50px;
+    width: 160px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #ffffff;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#banner #slide{
+    margin-top: 155px;
+}
+#banner #slide ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#banner #slide .text{
+    /* font-size: 24px; */
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+#banner #slide .bar{
+    width: 280px;
+    height: 3px;
+    background-color: #ffffff;
+}
+#about{
+    /* width: 1920px; 1352px; 1920px;  */
+    height: 749px;
+}
+#about #texte{
+    padding-top: 85px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#about #texte h2{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    align-items: center;
+}
+#about #texte h3{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+}
+.rectangle5{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+#about #texte p{
+    margin-top: 40px;
+    width: 960px;
+    height: 130px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+#about #pics{
+    display: flex;
+    justify-content: space-between;
+}
+#about #pics #pic1, #pic2, #pic3{
+    display: block;
+    width: 380px;
+    height: 250px;
+    background-color: #000;
+}
+#about #pics a:hover{
+    width: 380px;
+    height: 250px;
+    background-image: linear-gradient(0deg, #e1cb7b 0%, #da7373 100%);
+}
+#facts{
+    /* width: 1920px; */
+    height: 270px;
+    background-color: #95e1d3;
+}
+#facts .container{
+    display: flex;
+    justify-content: space-between;
+}
+#facts .facts{
+    border-right: 1px solid #fff;
+    height: 270px; 
+    width: 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#facts #prems{
+    border-left: 1px solid #fff;
+}
+#facts h3{
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+#facts p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+#service{
+    /* width: 1920px; */
+    height: 650px;
+}
+#service #servicediv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#service h2{
+    padding-top: 110px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+}
+#service h3{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-bottom: 45px;
+}
+#service .serviceComplet{
+    display: flex;
+    justify-content: space-between;
+}
+#service .serviceIndiv{
+    display: flex;
+    justify-content: space-between;
+}
+#service img #svg1{
+    width: 32px;
+    height: 30px;
+    background-color: #95e1d3;
+}
+#service img #svg2{
+    width: 32px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #95e1d3;
+}
+#service img #svg3{
+    width: 31px;
+    height: 28px;
+    background-color: #95e1d3;
+}
+#service img #svg4{
+    width: 32px;
+    height: 32px;
+    background-color: #95e1d3;
+}
+#service img #svg5{
+    width: 32px;
+    height: 31px;
+    background-color: #95e1d3;
+}
+#service img #svg6{
+    width: 32px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #95e1d3;
+}
+#service h3{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+#service p{
+    width: 290px;
+    height: 81px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+hr{
+    /* width: 1200px; */
+    height: 1px;
+    background-color: #e5e5e5;
+}
+#futur{
+    /* width: 1920px; */
+    height: 850px;
+    background: url(../images/rectangle21.png);
+}
+#futur #futurdiv{
+    /* width: 1200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#futur h2{
+    padding-top: 110px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    text-align: center;
+}
+#futur h3{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-bottom: 45px;
+}
+#futur p{
+    padding-top: 45px;
+}
+#service2{
+    /* width: 1920px; */
+    height: 790px;
+}
+#service2 #servtext{
+    /* width: 1200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#service2 h2{
+    padding-top: 130px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    text-align: center;
+}
+#service2 h3{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-bottom: 50px;
+}
+#service2 p{
+    padding-top: 55px;
+    width: 960px;
+    height: 130px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+#service2 #book{}

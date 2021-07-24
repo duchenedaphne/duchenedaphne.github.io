@@ -1,0 +1,18 @@
+//ce commentaire n'apparaît pas sur le fichier css
+
+//https://fr.linkedin.com/learning/l-essentiel-de-sass/utiliser-les-directives-if-et-else?autoplay=true&trk=learning-course_tocItem&upsellOrderOrigin=default_guest_learning
+
+@import "scss/variables";
+@import "scss/fonctions";
+@import "scss/mixin";
+
+@import "scss/reset";
+//@import "scss/fontawesomescss/fontawesome";
+//@import "scss/fontawesome";
+
+@import "scss/main";
+@import "scss/buttons";
+@import "scss/header";
+@import "scss/nav";
+@import "scss/mainContent";
+@import "scss/footer"; 

@@ -1,0 +1,28 @@
+
+body{
+    padding: 20px 0;
+    background:{
+        color: $light-grey;
+        image: url('sassicon.png');
+        attachment: fixed;
+        repeat: no-repeat;
+        position: center;
+    }
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparentize($white, 0.2);
+    border: solid 3px $green;
+
+    @each $breakpoint, $value in $breakpoints{
+        @media screen and (min-width: $value){
+        max-width: $value;
+        }
+    }
+}
+%listReset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
