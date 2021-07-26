@@ -18,22 +18,12 @@ header figure img{
 	width: 5.9em;
 	height: 5.9em;
 }
-#liseret, #contenu{
-    display: inline-block;
-    vertical-align: top;
-}
-#liseret{   
-    width: 5%;
-    margin-right: 3%;
-    height: 31.25em;
-    background-color: teal;
-    border: 1px solid #181818;
-    box-shadow: 8px 8px 9px black;
-    border-radius: 10px;
-}
 #contenu{
     width: 90%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .cv{
 	background-color: lightgray;
@@ -47,6 +37,8 @@ section{
 	vertical-align: top;
 	border-left: 1px solid teal;
 	padding-bottom: 10px;
+	display: block;
+	width: auto;
 }
 h2{
 	background-color: teal;
@@ -94,22 +86,23 @@ footer p
 {
 	font-weight: bold;
 }
-@media only screen and (max-width: 51.9rem){
-    section{
-        display: block;
-        width: auto;
-    }
-    #liseret{
-        display: none;
-    }
-    #contenu{
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-    }
-}
 @media only screen and (min-width: 52rem) {
+	#liseret, #contenu{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#liseret{   
+		width: 5%;
+		margin-right: 3%;
+		height: 31.25em;
+		background-color: teal;
+		border: 1px solid #181818;
+		box-shadow: 8px 8px 9px black;
+		border-radius: 10px;
+	}
+	#contenu{
+		flex-direction: row;
+	}
 	.cv {
 		display: flex;
 		flex-direction: row;

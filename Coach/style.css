@@ -98,40 +98,37 @@ header {
   background-position: center center;
 }
 /**********************  SECTION 1  **********************/
+section{
+  width: 80%;
+  margin: auto;
+}
 #premiere {
   padding: 10px;
-  margin: auto;
-  width: 80%;
 }
 .evolution {
-  display: grid;
-  grid-template-columns: 30% 70%;
   min-height: 400px;
   align-items: center;
 }
 .difficultes {
-  display: grid;
-  grid-template-columns: 70% 30%;
   min-height: 400px;
   align-items: center;
 }
 .devenir {
-  display: grid;
-  grid-template-columns: 30% 70%;
   min-height: 400px;
   align-items: center;
 }
 .img {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
 }
 .text {
   text-align: justify;
+  padding: 40px;
 }
 hr.solid {
   border-top: 1px solid rgb(224, 224, 224);
   width: 50%;
-  margin: 40px auto;
+  margin: auto;
   border-radius: 5px;
   background-color: #a1a3a7;
   color: #a1a3a7;
@@ -140,6 +137,7 @@ hr.solid {
 }
 #premiere button {
   background-color: rgb(92, 9, 9);
+  margin: 40px auto;
 }
 #premiere button a {
   text-decoration: none;
@@ -162,16 +160,10 @@ hr.solid {
 /***********************  SECTION 2  ***********************/
 #coaching {
   padding: 20px;
-  margin: auto;
-  width: 80%;
 }
 .png {
-  width: 130px;
-  height: 130px;
-}
-.row{
-  display: flex;
-  justify-content: space-around;
+  width: 8rem;
+  height: 8rem;
 }
 .columns p{
   text-align: justify;
@@ -201,18 +193,21 @@ hr.solid {
 /***********************  SECTION 3  ***********************/
 #story {
   padding: 20px;
-  margin: auto;
-  width: 80%;
 }
 #dd {
-  max-width: 170px;
-  max-height: 170px;
+  max-width: 10rem;
+  max-height: 10rem;
 }
 #present {
-  display: grid;
-  grid-template-columns: 30% 70%;
   min-height: 400px;
   align-items: center;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 #photo button {
   background-color: rgb(42, 91, 155);
@@ -225,9 +220,11 @@ hr.solid {
 }
 #cv {
   text-align: justify;
+  padding: 50px;
 }
 #last {
   text-align: justify;
+  padding: 30px;
 }
 /***********************  TITRE 4  ***********************/
 .banner-four {
@@ -325,6 +322,7 @@ footer {
 #menu a {
   color: white;
   font-size: 1.1rem;
+  line-height: 2rem;
 }
 #menu a:hover{
   font-size: 1.2rem;
@@ -347,4 +345,33 @@ footer {
 .test button a {
   color: white;
   text-decoration: none;
+}
+/******************** @MEDIA *************************/
+@media only screen and (min-width: 51rem){
+  .evolution {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  .difficultes {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .devenir {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  .columns{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 40px auto;
+  }
+  .column{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 40px auto;
+  }
+  #present {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
 }
