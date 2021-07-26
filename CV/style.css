@@ -94,7 +94,7 @@ footer p
 {
 	font-weight: bold;
 }
-@media only screen and (max-width: 50.9rem){
+@media only screen and (max-width: 51.9rem){
     section{
         display: block;
         width: auto;
@@ -109,7 +109,7 @@ footer p
 		justify-content: center;
     }
 }
-@media only screen and (min-width: 51rem) {
+@media only screen and (min-width: 52rem) {
 	.cv {
 		display: flex;
 		flex-direction: row;
