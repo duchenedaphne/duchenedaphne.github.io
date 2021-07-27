@@ -15,10 +15,7 @@ body {
 }
 #portfolio{
   display: flex;
-  width: 100%;
   justify-content: right;
-  align-items: center;
-  margin: 0;
 }
 #portbutton{
 background-color: #1c3279;
@@ -30,8 +27,7 @@ align-items: center;
 }
 #portbutton h3{
   color: #fff;
-  font-size: 20px;
-  padding: 3px;
+  padding: 0 2px;
 }
 #portbutton a{
   display: block;
@@ -39,17 +35,17 @@ align-items: center;
   block-size: 30px;
   border-radius: 5px;
   padding: 2px;
-  margin: 4px;
+  margin: 0 4px;
 }
 #portbutton a:hover{
   background-color: rgb(152, 194, 196);
-  block-size: 35px;
+  block-size: 2rem;
 }
 p {  
-  line-height: 160%;
+  line-height: 1.6rem;
 }
 button {
-  block-size: 50px;
+  block-size: 3.1rem;
   font-size: 1rem;
   border-radius: 21px;
   text-transform: uppercase;
@@ -57,14 +53,14 @@ button {
 }
 button:hover{
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0,8));
-  font-size: 1.1em;
+  block-size: 3.2rem;
 }
 li {
   list-style: none;
 }
 /**************************  HEADER  *************************/
 header {
-  padding: 10px;
+  padding: 1rem;
   text-transform: uppercase;
   background-color: black;
   color: white;
@@ -72,11 +68,12 @@ header {
 }
 #header {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 #header h1 {
   padding-bottom: 0;
   margin-bottom: 0;
+  font-size: 1.6rem;
 }
 #header h1 a {
   text-decoration: none;
@@ -89,46 +86,29 @@ header {
 }
 /***********************  TITRE 1  ***********************/
 #banner-one {
-  padding: 50px;
+  padding: 3rem;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("images/finances.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/finances.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 /**********************  SECTION 1  **********************/
 section{
-  width: 80%;
-  margin: auto;
-}
-#premiere {
-  padding: 10px;
-}
-.evolution {
-  min-height: 400px;
-  align-items: center;
-}
-.difficultes {
-  min-height: 400px;
-  align-items: center;
-}
-.devenir {
-  min-height: 400px;
-  align-items: center;
+  padding: 2rem;
 }
 .img {
-  width: 12.5rem;
-  height: 12.5rem;
+  width: 9rem;
+  height: 9rem;
+  padding: 1rem;
 }
 .text {
   text-align: justify;
-  padding: 40px;
 }
 hr.solid {
   border-top: 1px solid rgb(224, 224, 224);
   width: 50%;
-  margin: auto;
+  margin: 1rem auto;
   border-radius: 5px;
   background-color: #a1a3a7;
   color: #a1a3a7;
@@ -137,7 +117,7 @@ hr.solid {
 }
 #premiere button {
   background-color: rgb(92, 9, 9);
-  margin: 40px auto;
+  margin: 2.5rem auto;
 }
 #premiere button a {
   text-decoration: none;
@@ -152,22 +132,26 @@ hr.solid {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 50px;
+  padding: 4rem;
 }
 #banner-two h2 {
   text-transform: uppercase;
 }
 /***********************  SECTION 2  ***********************/
-#coaching {
-  padding: 20px;
+figure{
+  padding: 1rem;
 }
 .png {
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
+}
+figcaption{
+  font-weight: 700;
+  padding-top: 1rem;
+  font-size: 1.1rem;
 }
 .columns p{
   text-align: justify;
-  padding: 20px;
 }
 #coaching button {
   background-color: rgb(83, 65, 15);
@@ -191,12 +175,9 @@ hr.solid {
   text-transform: uppercase;
 }
 /***********************  SECTION 3  ***********************/
-#story {
-  padding: 20px;
-}
 #dd {
-  max-width: 10rem;
-  max-height: 10rem;
+  max-width: 8rem;
+  max-height: 8rem;
 }
 #present {
   min-height: 400px;
@@ -205,9 +186,7 @@ hr.solid {
 figure{
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  justify-content: center;
 }
 #photo button {
   background-color: rgb(42, 91, 155);
@@ -218,13 +197,8 @@ figure{
   font-family: "Domine", arial, serif;
   font-size: 1rem;
 }
-#cv {
+#cv, #last {
   text-align: justify;
-  padding: 50px;
-}
-#last {
-  text-align: justify;
-  padding: 30px;
 }
 /***********************  TITRE 4  ***********************/
 .banner-four {
@@ -264,7 +238,7 @@ label {
   text-align: center;
 }
 #button {
-  block-size: 40px;
+  block-size: 2.5rem;
   font-size: 1rem;
   border-radius: 21px;
   text-transform: uppercase;
@@ -275,40 +249,40 @@ label {
   cursor: pointer;
 }
 #button:hover{
-  font-size: 1.1rem;
+  background-color: #fff;
+  color: black;
 }
 #partage {
-  width: 80%;
-  padding: 20px;
+  /* width: 80%; */
+  /* padding: 20px; */
   position: relative;
   color: white;
 }
 #partage ul {
   display: flex;
   justify-content: space-between;
-  width: 33%;
+  /* width: 33%; */
   margin: 0 auto;
-  min-width: 300px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 #partage a {
+  margin: 0 0.2rem;
   border: 1px solid #ccc;
   border-radius: 50px;
-  width: 44px;
-  height: 44px;
-  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
   text-decoration: none;
   color: white;
-  font-family: "Domine", arial, serif;
 }
 #partage a:hover{
-  block-size: 1.1rem;
+  background-color: #fff;
+  color: #000;
 }
 /**************************  FOOTER  *************************/
 footer {
@@ -348,6 +322,15 @@ footer {
 }
 /******************** @MEDIA *************************/
 @media only screen and (min-width: 51rem){
+  .evolution {
+    align-items: center;
+  }
+  .difficultes {
+    align-items: center;
+  }
+  .devenir {
+    align-items: center;
+  }
   .evolution {
     display: grid;
     grid-template-columns: 30% 70%;

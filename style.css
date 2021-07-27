@@ -75,9 +75,6 @@ main{
     background-color: #e2f1f3;
     border-radius: 3px;
 }
-#titretrois #presentation{
-    width: 30%;
-}
 #titretrois h3{
     text-align: center;
 }
@@ -146,9 +143,8 @@ a{
 .button {
     text-decoration: none;
     color: white;
-    background-color: #000;
+    background-color: #000; 
 }
-  
 a:hover {
     opacity: 0.8;
     font-size: 20px;
@@ -163,6 +159,7 @@ a:hover {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    background-color: #000;
 }
 .cardContainer p{
     padding-top: 10px;
@@ -181,7 +178,7 @@ footer{
     font-size: small;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 44rem) {
     .sections{
         display: flex;
         flex-direction: row;
@@ -195,9 +192,12 @@ footer{
         height: 270px;
         margin: 15px;
     }
+    #titretrois #presentation{
+        width: 30%;
+    }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 62rem) {
     .card {
         height: 320px;
         margin: 15px;

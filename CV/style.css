@@ -7,16 +7,14 @@ body{
 }
 header{
 	text-shadow: 0.5em 0.5em 0.6em black;
-	width: 50%;
 	margin: auto;
 	color: white;
 	text-align: center;
 	display: flex;
 	justify-content: space-around;
 }
-header figure img{
-	width: 5.9em;
-	height: 5.9em;
+header figure{
+	display: none;
 }
 #contenu{
     width: 90%;
@@ -75,7 +73,6 @@ ul a:hover{
 footer{
 	width: 70%;
 	margin: auto;
-	font-size: 0.8em;
 	text-shadow: 3px 3px 2px black;
 	color: white;
 	text-align: center;
@@ -87,6 +84,16 @@ footer p
 	font-weight: bold;
 }
 @media only screen and (min-width: 52rem) {
+	header{
+		width: 70%;
+	}
+	header figure {
+		display: block;
+	} 
+	header figure img{
+		width: 5.5rem;
+		height: 5.5rem;
+	} 
 	#liseret, #contenu{
 		display: inline-block;
 		vertical-align: top;
@@ -107,10 +114,16 @@ footer p
 		display: flex;
 		flex-direction: row;
 	}
+	section{
+		width: 25%;
+	}
 	#diplomes{
 		border-top-right-radius: 0;
 	}
 	#experiences{
 		border-top-right-radius: 20px;
+	}
+	footer{
+		font-size: 0.8em;
 	}
 }
