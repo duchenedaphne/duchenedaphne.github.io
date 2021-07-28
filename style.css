@@ -178,7 +178,7 @@ footer{
     font-size: small;
 }
 
-@media screen and (min-width: 44rem) {
+@media screen and (min-width: 62rem) {
     .sections{
         display: flex;
         flex-direction: row;
@@ -189,18 +189,11 @@ footer{
     }
     .card {
         width: 33%;
-        height: 270px;
+        height: 320px;
         margin: 15px;
     }
     #titretrois #presentation{
         width: 30%;
-    }
-}
-
-@media screen and (min-width: 62rem) {
-    .card {
-        height: 320px;
-        margin: 15px;
     }
 }
   

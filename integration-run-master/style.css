@@ -196,7 +196,7 @@ footer a {
   transition: 0.3s;
 }
 /***************************  RESPONSIVE  ******************************/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 62rem) {
   header,
   .section-1,
   .section-2 {
