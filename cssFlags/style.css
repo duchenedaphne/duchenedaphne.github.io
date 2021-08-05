@@ -1,0 +1,354 @@
+body{
+    background-color: rgb(197, 191, 177);
+}
+main{
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.container{
+    margin: 0 auto;
+}
+.white{
+    background-color: #fff;
+}
+
+/*************  PORTFOLIO BUTTON  ***********************************/
+
+#portfolio{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+  }
+  #portbutton{
+  background-color: #1c3279;
+  box-shadow: 8px 8px 9px black;
+  margin: 0 40px 0 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  }
+  #portbutton h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 3px;
+  }
+  #portbutton a{
+    display: block;
+    background-color: gainsboro;
+    block-size: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 4px;
+  }
+  #portbutton a:hover{
+    background-color: rgb(152, 194, 196);
+    block-size: 35px;
+  }
+
+/************  FRANCE  ************************/
+
+#france{
+    height: 8rem;
+    width: 12rem;
+    background-color: #fff;
+}
+#france div{
+    height: 100%;
+    width: 31.57%;
+    display: inline-block;
+    margin: 0;
+}
+#france .blue{
+    background-color: #002495;
+}
+#france .red{
+    background-color: #ED2938;
+}
+
+/************  GERMANY  ************************/
+
+#germany{
+    height: 8rem;
+    width: 13.33rem;
+    background-color: #DE0002;
+}
+#germany div{
+    width: 100%;
+    height: 33.3%;
+}
+.black{
+    background-color: black;
+}
+#germany .red2{
+    background-color: #DE0002;
+}
+#germany .yellow{
+    background-color: #ffce00;
+}
+
+/************  MADAGASCAR  ************************/
+
+#madagascar{
+    height: 8rem;
+    width: 12rem;
+    background-color: #fff;
+}
+#madagascar div{
+    margin: 0;
+    position: relative;
+    height: 50%;
+    width: 66.1%;
+    left: 4.1rem;
+}
+#madagascar .red3{
+    background-color: #FC3E32;
+}
+#madagascar .green{
+    background-color: #007E39;
+}
+
+/************  SWITZERLAND  ************************/
+
+#switzerland{
+    height: 8rem;
+    width: 8rem;
+    background-color: #FF0002;
+}
+#switzerland .white{
+    position: relative;
+}
+#suiss2{
+    height: 4rem;
+    width: 15%;
+    top: 0.8rem;
+    left: 3.4rem; 
+}
+#suiss1{
+    width: 4rem;
+    height: 15%;
+    left: 2rem;
+    top: 3.5rem; 
+}
+
+/************  SWEDEN  ************************/
+
+#sweden{
+    height: 8rem;
+    width: 12.8rem;
+    background-color: #0269A6;
+}
+#sweden .yellow2{
+    background-color: #FECC00;
+    position: relative;
+}
+#sweden #sued1{
+    width: 10%;
+    height: 100%;
+    left: 4rem;
+}
+#sweden #sued2{
+    height: 15%;
+    width: 100%;
+    bottom: 4.5rem;
+}
+
+/************  GAMBIA  ************************/
+
+#gambia{
+    height: 8rem;
+    width: 12rem;
+    background-color: #fff;
+}
+#gambia div{
+    position: relative;
+    width: 100%;
+}
+#gambia .red{
+    background-color: #CE1127;
+    height: 32.4%;
+}
+#gambia .blue{
+    background-color: #0D1D8B;
+    height: 23%;
+    margin: 0.5rem 0;
+}
+#gambia .green{
+    background-color: #3B7827;
+    height: 32.4%;
+}
+
+/************  JAPAN  ************************/
+
+#japan{
+    height: 8rem;
+    width: 12rem;
+    background-color: #fff;
+}
+#japan .red{
+    background-color: #bc022c;
+    border-radius: 50%;
+    height: 50%;
+    width: 40%;
+    position: relative;
+    left: 3.5rem;
+    top: 2rem;
+}
+
+/************  NIGER  ************************/
+
+#niger{
+    height: 8rem;
+    width: 9.33rem;
+    background-color: white;
+}
+#niger .orange{
+    background-color: #E15307;
+    width: 100%;
+    height: 33.3%;
+}
+#niger .green{
+    background-color: #10AF2A;
+    width: 100%;
+    height: 33.3%;
+}
+#niger .white{
+    height: 33.3%;
+}
+#niger0{
+    position: relative;
+    background-color: #E15307;
+    border-radius: 50%;
+    width: 27%;
+    height: 27%;
+    bottom: 5.1rem;
+    left: 3.2rem;
+}
+
+/************  TONGA  ************************/
+
+#tonga{
+    background-color: #C20002;
+    height: 8rem;
+    width: 16rem;
+}
+#tonga .white{
+    height: 50%;
+    width: 33.3%;
+}
+#tonga .red{
+    position: relative;
+    background-color: #C20002;
+}
+#tong1{
+    width: 50%;
+    height: 24%;
+    left: 1.3rem;
+    top: 1.5rem;
+}
+#tong2{
+    height: 60%;
+    width: 18%;
+    left: 2.2rem;
+    bottom: 0.2rem;
+}
+
+/************  GREECE  ************************/
+
+#greece{
+    background-color: #0E5FAE;
+    height: 8rem;
+    width: 12rem;
+}
+#greece .white{ 
+    position: relative;
+}
+#gree1, #gree2, #gree3, #gree4{
+    width: 100%;
+    height: 10.5%;
+}
+#gree1{
+    top: 0.9rem;
+}
+#gree2{
+    top: 1.8rem;
+}
+#gree3{
+    top: 2.7rem;
+}
+#gree4{
+    top: 3.7rem;
+}
+#gree5{ 
+    position: relative;
+    background-color: #0E5FAE;
+    height: 50%;
+    width: 33.3%;
+    bottom: 3.38rem;
+}
+#gree6{
+    bottom: 7.35rem;
+    left: 1.5rem;
+    height: 54.5%;
+    width: 8%;
+}
+#gree7{
+    bottom: 9.94rem;
+    height: 10.5%;
+    width: 33.3%;
+}
+
+/************  MALDIVES  ************************/
+
+#maldives{
+    height: 8rem;
+    width: 12rem;
+    background-color: #d31133;
+    align-items: center;
+    justify-content: center;
+}
+#maldives div{
+    position: relative;
+}
+#maldives .green{
+    background-color: #007e39;
+    height: 70%;
+    width: 70%;
+    top: 1.2rem;
+    left: 1.8rem;
+}
+#maldives .white{
+    border-radius: 50%;
+    width: 40%;
+    height: 50%;
+    bottom: 3.7rem;
+    left: 4.5rem;
+}
+#moon2{
+    background-color: #007e39;
+    border-radius: 50%;
+    width: 40%;
+    height: 50%;
+    bottom: 7.8rem;
+    left: 5.4rem;
+}
+
+/***************  MEDIA  ************************/
+
+@media only screen and (min-width: 43.57rem){
+    section{
+        display: flex;
+    }
+    #sect1{
+        /* display: none; */
+    }
+    #sect2{
+        /* display: none; */
+    }
+    #sect3{
+        /* display: none; */
+    }
+}

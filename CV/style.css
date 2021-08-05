@@ -65,10 +65,14 @@ ul a:hover{
 	color: black;
 }
 #portfolio{
-	color: #1c3279;
+	color: #FFF;
+	background-color: #1c3279;
+  	box-shadow: 8px 8px 9px black;
+  	border-radius: 3px;
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	padding: 0.4rem;
 }
 footer{
 	width: 70%;
