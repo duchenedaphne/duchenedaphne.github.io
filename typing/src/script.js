@@ -7,9 +7,9 @@ function deletePost(id){
 function lovePost(id){
     let heart = document.getElementById("heart-image-"+id);
     if(heart.src.indexOf("active") === -1){
-        heart.src = "heart-active.png";
+        heart.src = "/typing/images/heart-active.png";
     }else{
-        heart.src = "Chrome-Heart.png"
+        heart.src = "/typing/images/Chrome-Heart.png"
     }
 }
 
@@ -61,10 +61,10 @@ function createPostHTML(postContent){
     let template = `<article id="article-container-${currentPostId}">
     <header>
     <button class="close" onclick="deletePost(${currentPostId})">
-    <img src="cross.png" height="15" width="15"/>
+    <img src="/typing/images/cross.png" height="15" width="15"/>
     </button>
     <div class="avatar">
-    <img src="compose_icon.png" height="40" width="40" />
+    <img src="/typing/images/compose_icon.png" height="40" width="40" />
     </div>
     <h1>${name}</h1>
     <h2>@${username}</h2>
@@ -78,7 +78,7 @@ function createPostHTML(postContent){
     <time>${date}</time>
     </p>
     <button class="heart" onclick="lovePost(${currentPostId})">
-    <img src="Chrome-Heart.png" id="heart-image-${currentPostId}" height="15" width="16" />
+    <img src="/typing/images/Chrome-Heart.png" id="heart-image-${currentPostId}" height="15" width="16" />
     </button>
     </footer>
     </article>`;
