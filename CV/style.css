@@ -10,11 +10,6 @@ header{
 	margin: auto;
 	color: white;
 	text-align: center;
-	display: flex;
-	justify-content: space-around;
-}
-header figure{
-	display: none;
 }
 #contenu{
     width: 90%;
@@ -28,18 +23,18 @@ header figure{
 	color: black;
 	margin: 0 auto;
 	box-shadow: 8px 8px 9px black;
-	border: 1px solid teal;
+	border: 1px solid #90D7E9;
 	border-radius: 20px;
 }
 section{
 	vertical-align: top;
-	border-left: 1px solid teal;
+	border-left: 1px solid #90D7E9;
 	padding-bottom: 10px;
 	display: block;
 	width: auto;
 }
 h2{
-	background-color: teal;
+	background-color: #90D7E9;
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	margin: 0;
@@ -106,7 +101,7 @@ footer p
 		width: 5%;
 		margin-right: 3%;
 		height: 31.25em;
-		background-color: teal;
+		background-color: #90D7E9;
 		border: 1px solid #181818;
 		box-shadow: 8px 8px 9px black;
 		border-radius: 10px;
