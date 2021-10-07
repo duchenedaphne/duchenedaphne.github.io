@@ -23,12 +23,12 @@ header{
 	color: black;
 	margin: 0 auto;
 	box-shadow: 8px 8px 9px black;
-	border: 1px solid #90D7E9;
+	border: 1px solid #181818;
 	border-radius: 20px;
 }
 section{
 	vertical-align: top;
-	border-left: 1px solid #90D7E9;
+	border-left: 1px solid #181818;
 	padding-bottom: 10px;
 	display: block;
 	width: auto;
