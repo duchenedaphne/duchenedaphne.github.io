@@ -34,7 +34,7 @@ section{
 	width: auto;
 }
 h3{
-	background-color: #009688;
+	background-color: #64a1fd;
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	margin: 0;
@@ -101,7 +101,7 @@ footer p
 		width: 5%;
 		margin-right: 3%;
 		height: 31.25em;
-		background-color: #009688;
+		background-color: #64a1fd;
 		border: 1px solid #181818;
 		box-shadow: 8px 8px 9px black;
 		border-radius: 10px;
