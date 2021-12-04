@@ -41,7 +41,7 @@ h3{
 	text-align: center;
 	font-size: 1.3rem;
 }
-#diplomes{
+#formation{
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
@@ -117,10 +117,10 @@ footer p
 		width: 25%;
 	}
 	#diplomes{
-		border-top-right-radius: 0;
-	}
-	#experiences{
 		border-top-right-radius: 20px;
+	}
+	#formation{
+		border-top-right-radius: 0;
 	}
 	footer{
 		font-size: 0.8em;
