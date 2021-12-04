@@ -52,11 +52,11 @@ span{
 ul{
 	padding-right: 1.8em;
 }
-ul a{
+a{
 	color: black;
 	text-shadow: none;
 }
-ul a:hover{
+a:hover{
 	font-size: 1.1em;
 	color: black;
 }
