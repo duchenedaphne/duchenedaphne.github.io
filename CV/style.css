@@ -30,6 +30,7 @@ section{
 	vertical-align: top;
 	border-left: 1px solid #181818;
 	padding-bottom: 10px;
+	padding-left: 5px;
 	display: block;
 	width: auto;
 }
@@ -58,16 +59,6 @@ ul a{
 ul a:hover{
 	font-size: 1.1em;
 	color: black;
-}
-#portfolio{
-	color: #FFF;
-	background-color: #1c3279;
-  	box-shadow: 8px 8px 9px black;
-  	border-radius: 3px;
-	font-weight: 700;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	padding: 0.4rem;
 }
 footer{
 	width: 70%;
@@ -120,7 +111,7 @@ footer p
 		border-top-right-radius: 20px;
 	}
 	#formation{
-		border-top-right-radius: 0;
+		border-top-left-radius: 20px;
 	}
 	footer{
 		font-size: 0.8em;
