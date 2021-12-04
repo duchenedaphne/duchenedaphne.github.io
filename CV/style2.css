@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+li{
+    list-style-type: none;
+}
+#titre, #competences, #diplomes {
+    background-color: royalblue;
+    color: white;
+}
+#nom, #experiences, #formation{
+    background-color: lightgray;
+}
+header, section, footer{
+    display: flex;
+    margin: 5px 0;
+}
+#titre, #formation{
+    width: 65%;
+}
+#titre, #experiences, #diplomes{
+    margin-right: 2.5px;
+}
+#nom, #competences, #formation{
+    margin-left: 2.5px;
+}
+#nom, #diplomes{
+    width: 35%;
+}
+#experiences, #competences{
+    width: 50%;
+}
