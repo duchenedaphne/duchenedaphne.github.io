@@ -39,7 +39,6 @@ header{
 main{
     width: 100%;
     margin: 0 auto;
-    background-color: #64a1fd;
     box-shadow: 0 10px 20px 0 #1c3279;
     border:thin 1px #1c3279;
     padding-top: 52px;
@@ -63,10 +62,15 @@ main{
     background-position: bottom;
     height: 10rem;
 }
-#titreun h2, #titretrois h2{
+#titreun h2, #titretrois h2, .mainContent h2{
     text-align: center;
-    font-size: 21px;
     color: #fff;
+}
+#titreun h2, .mainContent h2{
+    font-size: 1.8rem;
+}
+#titretrois h2{
+    font-size: 1.31rem;
 }
 #presentation{
     margin: 5.62rem;
@@ -104,11 +108,7 @@ a{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
     margin: 0 auto;
 }
-.mainContent h2{
-    text-align: center;
-    font-size: 1.8rem;
-    color: #fff; 
-}
+
 .mainContent hr{
     margin: 4.37rem 0;
 }
@@ -180,7 +180,7 @@ footer{
     font-size: small;
 }
 
-@media screen and (min-width: 62rem) {
+@media screen and (min-width: 37.7rem) {
     .sections{
         display: flex;
         flex-direction: row;
