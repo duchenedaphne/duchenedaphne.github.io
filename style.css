@@ -8,7 +8,7 @@ body{
     background-color: #64a1fd;
 }
 header{
-    background-color: #000;
+    background-color: #1c3279;
     width: 100%;
     padding: 2px;
     position: fixed;
@@ -63,6 +63,9 @@ main{
     text-align: center;
     color: #fff;
 }
+.mainContent h2{
+    margin-bottom: 4.37rem;
+}
 #titreun h2, .mainContent h2{
     font-size: 1.8rem;
 }
@@ -94,7 +97,6 @@ main{
 }
 h3{
     font-weight: 700;
-    text-transform: uppercase;
 }
 a{
     text-decoration: none;
