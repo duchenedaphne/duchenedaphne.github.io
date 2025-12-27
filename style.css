@@ -8,7 +8,7 @@ body{
     background-color: #64a1fd;
 }
 header{
-    background-color: #1c3279;
+    background-color: #000;
     width: 100%;
     padding: 2px;
     position: fixed;
@@ -22,10 +22,7 @@ header{
     align-items: center;
 }
 #portfolio h1{
-    text-transform: uppercase;
     letter-spacing: 0.2em;
-    border-top: #64a1fd double 3px;
-    border-bottom: #64a1fd double 3px;
     padding: 6px 0;
 }
 #portfolio a{
