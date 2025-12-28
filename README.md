@@ -1,6 +1,8 @@
-# Read Me :
-## Portfolio :
 
-Ce portfolio a été créé pour présenter mes projets en développement informatique.
+# 🖼️ Portfolio 
 
-&copy; Duchêne Daphné
+This is my portfolio.
+
+## ✍️ Author
+
+Duchêne Daphné
