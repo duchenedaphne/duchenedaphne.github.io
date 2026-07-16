@@ -4,7 +4,7 @@ self.__BUILD_MANIFEST = {
     "beforeFiles": [
       {
         "source": "/duchenedaphne.github.io//_next/:path+",
-        "destination": "/_next/:path+"
+        "destination": "/duchenedaphne.github.io/_next/:path+"
       }
     ],
     "fallback": []
