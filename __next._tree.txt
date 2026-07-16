@@ -1,7 +1,7 @@
-:HL["/duchenedaphne.github.io/_next/static/chunks/1g1s4o2_nwlb3.css","style"]
-:HL["/duchenedaphne.github.io/_next/static/media/a343f882a40d2cc9-s.p.1sj6eobyi31rd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/duchenedaphne.github.io/_next/static/chunks/1hq_eqnw2a1fa.css","style"]
+:HL["/_next/static/chunks/1g1s4o2_nwlb3.css","style"]
+:HL["/_next/static/media/a343f882a40d2cc9-s.p.1sj6eobyi31rd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/1hq_eqnw2a1fa.css","style"]
 :HL["/images/docs_v1_picture.png","image"]
 :HL["/images/3D_app.png","image"]
 :HL["/images/VN_Godot.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"O3-wWEGU5oehFNssWNpFZ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"92EicrtFc7GPoCr5W1wSW"}
